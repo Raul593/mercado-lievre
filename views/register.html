@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/public/imges/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+        </div>
+    </header>
+    <form action="/register" class="register">
+        <p>
+            <label>Nombre:</label>
+            <input type="text" name="Nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido">
+        </p>
+        <p>
+            <label>Nombre de usuario:</label>
+            <input type="text" name="Nombre de usuario">
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email">
+        </p>
+        <p>
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" name="fecha de nacimiento">
+        </p>
+        <p>
+            <label>Domicilio</label>
+            <input type="text" name="Domicilio">
+        </p>
+        <p>
+            <label>Perfil de usuario:</label>
+            <label>
+                <input type="radio" name="Comprador" value="Comprador">Comprador</label>
+            <label><input type="radio" name="Vendedor" value="Vendedor"> Vendedor</label>
+        </p>
+        <p>
+            <label >Intreses</label>
+            <label><input type="checkbox" name="Intreses" value="Electro"> Electro</label>
+            <label><input type="checkbox" name="Intreses" value="Moda"> Moda</label>
+            <label><input type="checkbox" name="Intreses" value="Hogar"> Hogar</label>
+            <label><input type="checkbox" name="Intreses" value="jugueteria"> Jugueteria</label>
+            <label><input type="checkbox" name="Intreses" value="Vida sana"> Vida sana</label>
+
+        </p>
+        <p>
+            <label>Foto de Perfil:</label>
+            <input type="file" name="foto">
+        </p>
+        <p>
+            <label>Contraseña:</label>
+            <input type="password" name="contraseña">
+            <label>Confirmar Contraseña:</label>
+            <input type="password" name="contraseña">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+
+    
+</body>
+</html>
