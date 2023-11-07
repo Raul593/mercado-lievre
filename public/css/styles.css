@@ -282,3 +282,8 @@ button[type="reset"] {
     margin-top: 10px;
     border-radius: 10px;
 }
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
